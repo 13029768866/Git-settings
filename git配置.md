@@ -23,7 +23,7 @@ ssh-keygen -t rsa -C "13029768866@163.com"
 查看公钥
 
 ```
-$ cat ~/.ssh/id_rsa.pub
+cat ~/.ssh/id_rsa.pub
 ```
 
 github配置

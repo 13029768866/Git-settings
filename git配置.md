@@ -35,7 +35,13 @@ github配置
 验证是否成功
 
 ```
-$ ssh -T git@github.com
+ ssh -T git@github.com
+```
+
+验证不成功，查看错误
+
+```
+ssh -vT git@github.com
 ```
 
 解决每次需要输入密码问题

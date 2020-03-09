@@ -26,6 +26,20 @@
 
 ## 3、指令
 
-1. git rm --cached  xxx   把暂存区某个文件撤回到工作区   （-r）撤销暂存区中所有提交的   （-f）强制删除暂存区的某一个文件
-2. git checkout xxx   把暂存区上次提交的内容撤回到工作区（覆盖工作区新写的内容）
-3. git  diff  工作区VS暂存区   master（工作区vs历史区master分支）  --cached(暂存区vs历史区)
+1、git rm --cached  xxx   把暂存区某个文件撤回到工作区   
+
+​	（-r）撤销暂存区中所有提交的   
+
+​	（-f）强制删除暂存区的某一个文件
+
+2、git checkout xxx   把暂存区上次提交的内容撤回到工作区（覆盖工作区新写的内容）
+
+3、git  diff  工作区VS暂存区   
+
+​	  master（工作区vs历史区master分支）  
+
+​	  --cached(暂存区vs历史区)
+
+4、git  log    查看历史版本
+
+​      git relog   查看所有历史版本

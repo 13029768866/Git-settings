@@ -49,3 +49,16 @@
 1、git checkout .	暂存区上次提交的内容撤回到工作区（覆盖工作区新写的内容）
 
 2、git reset --hard 版本号  历史区中回退的某一个版本（强制改变工作区和缓存区）
+
+## 5、分支查看
+
+1、git branch           			查看当前存在分支
+
+2、git branch xx 		 		创建分支
+
+3、git checkout -b xxx		创建并切换分支
+
+4、git satsh						  暂存文件
+
+5、git merge xxx				 合并分支
+
